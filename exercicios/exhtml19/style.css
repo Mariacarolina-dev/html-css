@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  em html é class = em css é . (pode ter mais de um elementos POR DOCUMENTO/PAGINA)
+    em html id é = em css # (um unico elemento) 
+    Não de nomes literais e sim funcionais 
+
+    É possivel ter no mesmo elemento um id e uma class, mas o id hierarquicamente se sobrepoe sobre a class
+
+    Também é possivel colocar mais de uma class se separadas por espaço */ 
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    color: brown;
+    background-color: blue;
+}
+
+h2 {
+    color: rgb(73, 109, 71);
+}
+
+.basico{
+    color: rgb(73, 109, 71);;
+}
+
+.intermediario{
+    color: rgb(106, 109, 71);;
+
+}
+
+.avancado{
+    color: rgb(109, 71, 71);;
+
+}

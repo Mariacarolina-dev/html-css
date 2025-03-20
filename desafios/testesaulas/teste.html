@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        div > p {
+            display: /*mostrar*/ none; /*nada*/
+        }
+
+        div:hover > p { /* Basicamente mostrar o que estava escondido no código aciuma */
+            display: block;
+            color: white;
+            background-color: gray;
+            width: 80px;
+        }
+        div:hover {
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>EXEMPLO DE HOVER</h1>
+    <p>Passe o mouse aqui</p>
+    <div>
+        Passe o mouse aqui
+        <p>Ops...</p>
+    </div>
+
+    
+</body>
+</html>
