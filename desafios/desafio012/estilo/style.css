@@ -7,7 +7,7 @@
 }
 
 html, body {
-    min-height: 100vh; /*Tamano minimo da view*/
+    min-height: 100vh; /*Tamanho minimo da view*/
     background-color: darkgray; /*Cor de fundo*/
 
 }
@@ -21,9 +21,51 @@ header {
 header > h1 {
     padding-top: 50px; /*Preenchimento - topo*/
     font-variant: small-caps; /*Variação tamanho da fonte*/
-
 }
 
 header > p {
-     
+    padding-bottom: 50px; /*preenchimento - baixo*/
 }
+
+header a, footer a {
+    color: white; /*Cor da fonte*/
+    text-decoration: none; /*Decoração no Texto - nenhum*/
+    font-weight: bolder; /*Estilo da Fonte*/
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline; /*Sublinhado no texto + hover*/
+
+}
+
+section { /*Simulação de Efeito Paralaxe*/
+    padding-top: 10vh; /*preenchimento da View - topo*/
+    padding-bottom: 10vh; /*preenchimento da view - baixo*/
+    line-height: 2em; /*Espaçamento Entre Linhas*/
+    padding-left: 30px; /*Preenchimento limite - esquerda*/ 
+
+}
+
+section.normal {
+    background-color: white; /*Cor de Fundo*/
+    color: black; /*Cor da fonte*/
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.37); /*Cor de fundo*/
+    color: white; /*Cor da fonte*/
+}
+
+section.image > p {
+    width: 400px; /*Largura*/
+    background-color: rgba(0, 0, 0, 0.288); /*Cor de Fundo*/
+
+}
+
+footer {
+    background-color: black; /*Cor de fundo*/
+    text-align: center; /*Centralização de Texto*/
+    color: white; /*Cor da Fonte*/
+    padding: 10px; /* Preenchimento*/
+}
+
